@@ -4,6 +4,25 @@ I have created a new cloud9 instance and EC2 instance in AWS.
 In the cloud9 terminal uploaded all the backend and frontend code then checked for all the code.
 Created Lambda functions for both delete details.
 
+Step 1: Set Up AWS Cloud9
+1. Create an AWS Cloud9 Environment:
+   - Go to the AWS Management Console and search for "Cloud9".
+   - Click "Create Environment", provide a name, and choose the settings that suit your needs.
+   - Click "Next Step" and then "Create Environment".
+
+2. Open the Cloud9 Environment:
+   - Once the environment is created, open it in the AWS Cloud9 IDE.
+
+ Step 2: Create a DynamoDB Table
+1. Open AWS DynamoDB:
+   - Go to the AWS Management Console, search for "DynamoDB", and open it.
+
+2. Create a Table:
+   - Click "Create table".
+   - Set the table name as "properties".
+   - Define the primary key, for example, "pid" as the partition key.
+   - Configure other settings as needed and click "Create".
+
 Step 3: Create a Lambda Function
 1. Create a Lambda Function:
    - Go to the AWS Management Console and search for "Lambda".
@@ -24,6 +43,13 @@ Step 3: Create a Lambda Function
    - Choose the type of API (REST ).
    - Select "New API" and give it a name.
 
+2. Create a Resource and Method:
+   - Define a resource and method for your API.
+   - Configure the integration with your Lambda function to handle the respective method.
+
+3. Deploy the API:
+   - Deploy the API to a stage to make it live.
+   - Obtain the endpoint URL.
 2. Create a Resource and Method:
    - Define a resource and method for your API.
    - Configure the integration with your Lambda function to handle the respective method.
