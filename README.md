@@ -27,7 +27,7 @@ Step 3: Create a Lambda Function
 1. Create a Lambda Function:
    - Go to the AWS Management Console and search for "Lambda".
    - Click "Create function".
-   - Choose "Author from scratch".
+   - Choose "new user role and lab role".
    - Give your function a name and select the runtime .
    - Click "Create function".
 
